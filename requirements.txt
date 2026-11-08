@@ -1,0 +1,19 @@
+# Core LLM / Nebius (OpenAI-compatible) backend
+openai>=1.0
+python-dotenv
+langsmith
+
+# LangGraph agent + MCP integration
+langgraph
+langchain-openai
+langchain-mcp-adapters
+mcp
+
+# Subtitle rasterisation for the overlay pipeline
+Pillow
+
+# Whisper transcription (Apple Silicon / MLX) for generating .srt
+mlx-whisper
+tqdm
+
+# External, not pip-installed: ffmpeg + ffprobe (brew install ffmpeg)
